@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 namespace SlotMachine
 {
+    [RequireComponent(typeof(Button))]
     public class StopButton : MonoBehaviourExtBind
     {
         [SerializeField] private Color32 activeTextColor;

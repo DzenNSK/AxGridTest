@@ -15,7 +15,7 @@ namespace SlotMachine
             Settings.Invoke("StartRunning");
         }
 
-        //Есть ли вариант реализации без константы, параметризуемый?!
+        //Can be resolved without constant?
         [One(3f)]
         private void Transition()
         {
